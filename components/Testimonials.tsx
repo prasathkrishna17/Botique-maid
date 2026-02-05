@@ -48,7 +48,7 @@ export default function Testimonials({ reviews }: TestimonialsProps) {
         </div>
 
         {/* Testimonials grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {reviews.slice(0, 3).map((t, index) => (
             <motion.div
               initial={{ opacity: 0, y: 24 }}
